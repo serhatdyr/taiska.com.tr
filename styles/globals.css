@@ -16,6 +16,10 @@ body > div{
   height: 100%;
 }
 
+.main{
+  height: 100%;
+}
+
 a {
   color: #ffff;
   text-decoration: none;

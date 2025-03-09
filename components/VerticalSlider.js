@@ -1,5 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
+import Image from 'next/image';
+
 
 function VerticalSlider() {
   const settings = {
@@ -17,25 +19,13 @@ function VerticalSlider() {
     }
   };
   return (
-    <div className="vertical-slider">
+    <div className="vertical-slider" id="home">
       <Slider {...settings}>
         <div>
-          <h3>1</h3>
+          <Image src="/src/assets/images/slider/01.jpg" width="100" height="100" />
         </div>
         <div>
-          <h3>2</h3>
-        </div>
-        <div>
-          <h3>3</h3>
-        </div>
-        <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
+          <Image src="/src/assets/images/slider/02.jpg" width="100" height="100" />
         </div>
       </Slider>
     </div>
