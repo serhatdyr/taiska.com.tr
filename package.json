@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "icon": "svgr icons/* -d components/icons --icon \"#fff=currenctColor\""
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.12",
@@ -15,8 +16,13 @@
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-iframe": "^1.8.5",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
     "tailwindcss": "^4.0.12"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^8.1.0",
+    "@svgr/webpack": "^8.1.0"
   }
 }

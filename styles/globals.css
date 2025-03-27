@@ -2,6 +2,7 @@
 @import "tailwindcss";
 @import "./vertical-slider.css";
 @import "./navbar.css";
+@import "./about.css";
 html{
   height: 100%;
 }
@@ -25,4 +26,17 @@ a {
   text-decoration: none;
 }
 
+.icon{
+  width:1em;
+  height:1em;
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
 
+.test{
+  color:#fff;
+  width: 20px;
+  height: 20px;
+}

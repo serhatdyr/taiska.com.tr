@@ -11,10 +11,10 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <ul className='grow flex justify-center'>
-                    <li className='m-4 flex items-center'><Link href="#home">Home</Link></li>
-                    <li className='m-4 flex items-center'><Link href="#about">About Us</Link></li>
-                    <li className='m-4 flex items-center'><Link href="#portfolio">Portfolio</Link></li>
-                    <li className='m-4 flex items-center'><Link href="#contact">Contact</Link></li>
+                    <li className='m-4 flex items-center'><Link href="#home">HOME</Link></li>
+                    <li className='m-4 flex items-center'><Link href="#about">ABOUT US</Link></li>
+                    <li className='m-4 flex items-center'><Link href="#portfolio">PORTFOLIO</Link></li>
+                    <li className='m-4 flex items-center'><Link href="#contact">CONTACT</Link></li>
                 </ul>
                 <div className='flex-none flex items-center'>
                     <a href='tel:02122223344'>0212 222 33 44</a>

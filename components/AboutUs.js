@@ -1,10 +1,16 @@
+import React from "react";
+import Image from 'next/image';
+
 const AboutUs = () => {
     return (
-        <div>
-            <h1>About Us</h1>
-            <div className="aboutus">
-                <div>
-                    <p>Founded under the leadership of interior architect Senay Esin
+        <section className="py-30">
+            <div className="container mx-auto grid grid-cols-2 gap-4">
+            <div>
+                <Image src="/src/assets/images/aboutus.png" width="743" height="777" />   
+            </div>
+            <div>
+                <h1>About Us</h1>
+                <p>Founded under the leadership of interior architect Senay Esin
                         Nur TAY, it is a building and architectural solution company
                         that produces interior architecture and steel structure
                         solutions and completes domestic and international turnkey
@@ -22,9 +28,9 @@ const AboutUs = () => {
                     <h3>our vision</h3>
                     <p>Our aim is to be a global company preferred for architectural solutions all over the world by
                         2030.</p>
-                </div>
             </div>
-        </div>
+            </div>
+        </section>
     );
 }
 
