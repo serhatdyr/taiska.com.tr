@@ -3,13 +3,12 @@ import Image from 'next/image';
 
 const AboutUs = () => {
     return (
-        <section className="py-30">
-            <div className="container mx-auto grid grid-cols-2 gap-4">
+            <div className="container mx-auto grid grid-cols-2 gap-4 py-30" id="about">
             <div>
                 <Image src="/src/assets/images/aboutus.png" width="743" height="777" />   
             </div>
             <div>
-                <h1>About Us</h1>
+                <h1 className="about-title">ABOUT US</h1>
                 <p>Founded under the leadership of interior architect Senay Esin
                         Nur TAY, it is a building and architectural solution company
                         that produces interior architecture and steel structure
@@ -30,7 +29,6 @@ const AboutUs = () => {
                         2030.</p>
             </div>
             </div>
-        </section>
     );
 }
 

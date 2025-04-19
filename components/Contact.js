@@ -6,9 +6,9 @@ import Mail from '../components/icons/Mail';
 
 const Contact = () => {
     return (
-        <div className="py-30">
+        <div className="py-30" id="contact">
             <div className="container mx-auto ">
-                <h1 className="text-center text-4xl mb-8">CONTACT</h1>
+                <h1 className="text-center font-bold text-3xl mb-8">CONTACT</h1>
                 <div className="grid grid-cols-2 gap-20">
                     <div className="">
                         <p>ATATURK MAH. ERTUGRUL GAZI SK. METROPOL İSTANBUL C1 BLOK NO: 2 B, NO: 376<br /> ATASEHIR / ISTANBUL</p>

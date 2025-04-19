@@ -1,7 +1,7 @@
 const Footer = () => {
     return (  
         <div className="footer">
-            Copyright Taiksa
+            Copyright Taiska
         </div>
     );
 }

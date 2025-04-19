@@ -1,9 +1,25 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState, useEffect } from 'react';
 
 const Navbar = () => {
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY > 50) {
+          setScrolled(true);
+        } else {
+          setScrolled(false);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+    
     return (
-        <nav className="navbar">
+        <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container mx-auto flex flex-row">
                 <div className="logo flex-none">
                     <Link href="/">

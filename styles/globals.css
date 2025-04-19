@@ -2,6 +2,7 @@
 @import "tailwindcss";
 @import "./vertical-slider.css";
 @import "./navbar.css";
+@import "./portfolio.css";
 @import "./about.css";
 html{
   height: 100%;
