@@ -6,7 +6,7 @@ import Mail from '../components/icons/Mail';
 
 const Contact = () => {
     return (
-        <div className="py-30" id="contact">
+        <div className="py-10 md:py-30" id="contact">
             <div className="container mx-auto px-4"> 
                 <h1 className="text-center font-bold text-3xl mb-8">CONTACT</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20">

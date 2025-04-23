@@ -31,7 +31,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="portfolio-section py-30" id="portfolio">
+    <div className="portfolio-section py-10 md:py-30" id="portfolio">
       <h2 className="portfolio-title">PORTFOLIO</h2>
       <p className="portfolio-desc">
         Fusce quis augue vitae odio elementum pretium. Nulla consequat felis sed arcu eleifend, ac
