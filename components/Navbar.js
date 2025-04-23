@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import Logo from '../components/icons/Logo';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -23,7 +24,8 @@ const Navbar = () => {
             <div className="container mx-auto flex flex-row">
                 <div className="logo flex-none">
                     <Link href="/">
-                        <Image src="/logo.png" width={198} height={78} />
+                        {/* <Image src="/logo.png" width={198} height={78} /> */}
+                        <Logo className="logo-svg" />
                     </Link>
                 </div>
                 <ul className='grow flex justify-center'>
@@ -32,7 +34,7 @@ const Navbar = () => {
                     <li className='m-4 flex items-center'><Link href="#portfolio">PORTFOLIO</Link></li>
                     <li className='m-4 flex items-center'><Link href="#contact">CONTACT</Link></li>
                 </ul>
-                <div className='flex-none flex items-center'>
+                <div className='navbar-phone flex-none flex items-center'>
                     <a href='tel:02122223344'>0212 222 33 44</a>
                 </div>
             </div>

@@ -9,10 +9,6 @@
     transition: background-color 0.3s ease;
   }
   
-  .navbar.scrolled {
-    background-color: #b5b5b5;
-  }
-  
   .navbar .container {
     display: flex;
     align-items: center;
@@ -20,6 +16,31 @@
   
   .navbar .logo img {
     display: block;
+  }
+
+  .navbar .logo .logo-svg{
+    fill:#fff;
+  }
+
+  .navbar .navbar-phone a{
+    color:#fff;
+  }
+
+
+  .navbar.scrolled {
+    background-color: #fff;
+  }
+
+  .navbar.scrolled .logo .logo-svg{
+    fill:#282D31;
+  }
+
+  .navbar.scrolled ul li a{
+    color:#282D31;
+  }
+
+  .navbar.scrolled .navbar-phone a{
+    color:#282D31 !important;
   }
   
   .navbar ul li a {
