@@ -3,7 +3,6 @@
 @import "./vertical-slider.css";
 @import "./navbar.css";
 @import "./portfolio.css";
-@import "./about.css";
 html{
   height: 100%;
 }
@@ -34,10 +33,4 @@ a {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-}
-
-.test{
-  color:#fff;
-  width: 20px;
-  height: 20px;
 }

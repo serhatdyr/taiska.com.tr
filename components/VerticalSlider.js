@@ -10,6 +10,7 @@ function VerticalSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     vertical: true,
+    autoplay: true,
     verticalSwiping: true,
     beforeChange: function(currentSlide, nextSlide) {
       console.log("before change", currentSlide, nextSlide);

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import {  Roboto } from "next/font/google";
+import MobileMenu from "@/components/MobileMenu";
 import AboutUs from "@/components/AboutUs";
 import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
@@ -19,6 +20,7 @@ export default function Home() {
         <title>Home Taiska</title>
         <meta name="keywords" content="taiska" />
       </Head>
+      <MobileMenu />
       <VerticalSlider className={roboto.className} />
       <AboutUs />
       <Portfolio />

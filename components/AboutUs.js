@@ -6,7 +6,7 @@ const AboutUs = () => {
         <div className="container mx-auto px-4 py-10 md:py-30" id="about">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 <div className="order-1 md:order-2">
-                    <h1 className="text-3xl font-bold mb-4">ABOUT US</h1>
+                    <h1 className="text-3xl font-bold mb-4 font-bold">ABOUT US</h1>
                     <p className="mb-6 text-justify">
                         Founded under the leadership of interior architect Senay Esin
                         Nur TAY, it is a building and architectural solution company

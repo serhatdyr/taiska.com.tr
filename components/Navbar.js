@@ -21,13 +21,13 @@ const Navbar = () => {
     
     return (
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-            <div className="container mx-auto flex flex-row">
+            <div className="container mx-auto flex flex-row justify-between">
                 <div className="logo flex-none">
                     <Link href="/">
                         <Logo className="logo-svg" />
                     </Link>
                 </div>
-                <ul className='grow flex justify-center'>
+                <ul className='grow hidden md:flex justify-center'>
                     <li className='m-4 flex items-center'><Link href="#home">HOME</Link></li>
                     <li className='m-4 flex items-center'><Link href="#about">ABOUT US</Link></li>
                     <li className='m-4 flex items-center'><Link href="#portfolio">PORTFOLIO</Link></li>
