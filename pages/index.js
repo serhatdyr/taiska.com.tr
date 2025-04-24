@@ -1,20 +1,16 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Geist, Geist_Mono, Roboto } from "next/font/google";
+import {  Roboto } from "next/font/google";
 import AboutUs from "@/components/AboutUs";
 import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
 import VerticalSlider from "@/components/VerticalSlider";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const roboto = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin"],
+  weight: ['400', '700']
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export default function Home() {
   return (
@@ -23,7 +19,7 @@ export default function Home() {
         <title>Home Taiska</title>
         <meta name="keywords" content="taiska" />
       </Head>
-      <VerticalSlider />
+      <VerticalSlider className={roboto.className} />
       <AboutUs />
       <Portfolio />
       <Contact />

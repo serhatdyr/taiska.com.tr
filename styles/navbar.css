@@ -20,15 +20,34 @@
 
   .navbar .logo .logo-svg{
     fill:#fff;
+    width: 130px;
   }
 
   .navbar .navbar-phone a{
     color:#fff;
+    display: flex;
+    align-items: center;
   }
+
+  .navbar-phone-icon{
+    width: 30px;
+    margin-right: 10px;
+    fill: #fff;
+  }
+
+  
+  .navbar .navbar-phone a span{
+    font-size: 20px;
+  }
+
 
 
   .navbar.scrolled {
     background-color: #fff;
+  }
+
+  .navbar.scrolled .navbar-phone-icon{
+    fill: #282D31;
   }
 
   .navbar.scrolled .logo .logo-svg{
