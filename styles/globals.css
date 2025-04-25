@@ -34,3 +34,8 @@ a {
   stroke: currentColor;
   fill: currentColor;
 }
+
+.contact-icon{
+  fill:#fff;
+  stroke: #fff;
+}

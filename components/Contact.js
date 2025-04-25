@@ -12,11 +12,11 @@ const Contact = () => {
                     <div>
                         <p>ATATURK MAH. ERTUGRUL GAZI SK. METROPOL İSTANBUL C1 BLOK NO: 2 B, NO: 376<br /> ATASEHIR / ISTANBUL</p>
                         <p className="flex items-center gap-2 mt-2">
-                            <Mail className="icon" /> 
+                            <Mail className="icon contact-icon" /> 
                             <a href="mailto:senay@taiska.com.tr">senay@taiska.com.tr</a>
                         </p>
                         <p className="flex items-center gap-2 mt-2">
-                            <Phone className="icon" /> 
+                            <Phone className="icon contact-icon" /> 
                             <a href="tel:+905324601104">+9 0532 460 11 04</a>
                         </p>
                         <div className="mt-4 aspect-video">
@@ -38,11 +38,11 @@ const Contact = () => {
                     <div>
                         <p>BULEVAR KIRO GLIGOROV . 5 СКОПЈЕ-Г. БАБА<br />SKOPJE / NORTH MAKEDONIA</p>
                         <p className="flex items-center gap-2 mt-2">
-                            <Mail className="icon" /> 
+                            <Mail className="icon contact-icon" /> 
                             <a href="mailto:senay@taiska.com.tr">senay@taiska.com.tr</a>
                         </p>
                         <p className="flex items-center gap-2 mt-2">
-                            <Phone className="icon" /> 
+                            <Phone className="icon contact-icon" /> 
                             <a href="tel:+905324601104">+9 0532 460 11 04</a>
                         </p>
                         <div className="mt-4 aspect-video">

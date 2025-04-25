@@ -21,7 +21,7 @@ const Navbar = () => {
     
     return (
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
-            <div className="container mx-auto flex flex-row justify-between">
+            <div className="container px-4 mx-auto flex flex-row justify-between">
                 <div className="logo flex-none">
                     <Link href="/">
                         <Logo className="logo-svg" />
