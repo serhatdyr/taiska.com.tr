@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import Logo from '../components/icons/Logo';
-import Phone from '../components/icons/Phone';
+import Mail from '../components/icons/Mail';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -34,9 +34,9 @@ const Navbar = () => {
                     <li className='m-4 flex items-center'><Link href="#contact">CONTACT</Link></li>
                 </ul>
                 <div className='navbar-phone flex-none flex items-center'>
-                    <a href='tel:02122223344'>
-                      <Phone className="navbar-phone-icon" />
-                      <span>0212 222 33 44</span>
+                    <a href='mailto:info@taiska.com.tr'>
+                      <Mail className="navbar-phone-icon" />
+                      <span>info@taiska.com.tr</span>
                     </a>
                 </div>
             </div>

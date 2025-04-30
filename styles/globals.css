@@ -37,5 +37,5 @@ a {
 
 .contact-icon{
   fill:#fff;
-  stroke: #fff;
+  stroke: #fff !important;
 }

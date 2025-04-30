@@ -15,7 +15,7 @@ const SvgMail = (props) => (
     <g clipPath="url(#mail_svg__a)">
       <g
         fill="none"
-        stroke="#000"
+        stroke="currentcolor"
         strokeWidth={10}
         transform="translate(4.293 8.717)"
       >

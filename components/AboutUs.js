@@ -18,14 +18,14 @@ const AboutUs = () => {
                         satisfaction, it carries out perfect projects for its customers at
                         predictable prices.
                     </p>
-                    <h3 className="text-xl font-semibold mb-2">our mission</h3>
+                    <h3 className="text-xl font-semibold mb-2">OUR MISSION</h3>
                     <p className="mb-6 text-justify">
                         To provide sustainable, high quality and
                         satisfaction-oriented products and services to
                         its customers with its unique experience and
                         strong team over the years.
                     </p>
-                    <h3 className="text-xl font-semibold mb-2">our vision</h3>
+                    <h3 className="text-xl font-semibold mb-2">OUR VISION</h3>
                     <p className="text-justify">
                         Our aim is to be a global company preferred for architectural solutions all over the world by
                         2030.

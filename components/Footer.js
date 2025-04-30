@@ -5,8 +5,7 @@ const Footer = () => {
 
     return (  
         <div className="footer flex justify-center items-center py-4">
-            <p>Copyright &copy; {currentYear} Taiska</p>
-            
+            <p className='text-center'>Copyright &copy; {currentYear} Taiska <br />Design by <a href="http://www.asitane.net/">Asitane</a></p>
         </div>
     );
 }
