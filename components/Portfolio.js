@@ -43,6 +43,7 @@ const Portfolio = () => {
           {images.map((src, index) => (
             <div key={index} className="portfolio-slide">
               <img src={src} alt={`portfolio-${index}`} className="portfolio-image" />
+              <p>TURKEY ANTALYA - HOTEL PROJECT</p>
             </div>
           ))}
         </Slider>
