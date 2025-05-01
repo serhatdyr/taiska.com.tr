@@ -24,10 +24,22 @@ const Portfolio = () => {
   };
 
   const images = [
-    "/src/assets/images/slider/image.png",
-    "/src/assets/images/slider/image.png",
-    "/src/assets/images/slider/image.png",
-    "/src/assets/images/slider/image.png",
+    {
+      src: "/src/assets/images/slider/image.png",
+      description: "TURKEY ANTALYA - HOTEL PROJECT",
+    },
+    {
+      src: "/src/assets/images/slider/image.png",
+      description: "GERMANY BERLIN - OFFICE COMPLEX",
+    },
+    {
+      src: "/src/assets/images/slider/image.png",
+      description: "UAE DUBAI - SKYLINE TOWER",
+    },
+    {
+      src: "/src/assets/images/slider/image.png",
+      description: "USA NEW YORK - RESIDENTIAL BLOCK",
+    },
   ];
 
   return (
@@ -40,10 +52,10 @@ const Portfolio = () => {
       </p>
       <div className="portfolio-slider-container">
         <Slider {...settings}>
-          {images.map((src, index) => (
+          {images.map((item, index) => (
             <div key={index} className="portfolio-slide">
-              <img src={src} alt={`portfolio-${index}`} className="portfolio-image" />
-              <p>TURKEY ANTALYA - HOTEL PROJECT</p>
+              <img src={item.src} alt={`portfolio-${index}`} className="portfolio-image" />
+              <p>{item.description}</p>
             </div>
           ))}
         </Slider>
