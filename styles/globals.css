@@ -39,3 +39,7 @@ a {
   fill:#fff;
   stroke: #fff !important;
 }
+
+.portfolio-slide:focus-visible{
+  outline: none;
+}

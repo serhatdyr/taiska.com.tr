@@ -23,22 +23,34 @@ const Portfolio = () => {
     ],
   };
 
-  const images = [
+  const data = [
     {
-      src: "/src/assets/images/slider/image.png",
-      description: "TURKEY ANTALYA - HOTEL PROJECT",
+      src: "/src/assets/images/portfolio/carya-golf-club.jpg",
+      description: "TURKEY ANTALYA - CARYA GOLF CLUB",
     },
     {
-      src: "/src/assets/images/slider/image.png",
-      description: "GERMANY BERLIN - OFFICE COMPLEX",
+      src: "/src/assets/images/portfolio/art-hotel.jpg",
+      description: "BAKU, AZERBEYCAN - ART HOTEL",
     },
     {
-      src: "/src/assets/images/slider/image.png",
-      description: "UAE DUBAI - SKYLINE TOWER",
+      src: "/src/assets/images/portfolio/libya-embassy.jpg",
+      description: "ANKARA, TURKIYE - LIBYA EMBASSY",
     },
     {
-      src: "/src/assets/images/slider/image.png",
-      description: "USA NEW YORK - RESIDENTIAL BLOCK",
+      src: "/src/assets/images/portfolio/galata-hotel.jpg",
+      description: "ISTANBUL, TURKIYE - GALATA HOTEL",
+    },
+    {
+      src: "/src/assets/images/portfolio/regnum-carya-resort-hotel-spa.jpg",
+      description: "BELEK, ANTALYA - REGNUM CARYA RESORT HOTEL & SPA",
+    },
+    {
+      src: "/src/assets/images/portfolio/artas-construction.jpg",
+      description: "YENIMAHALLE, ANKARA - ARTAS CONSTRUCTION",
+    },
+    {
+      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      description: "ISTANBUL, - DELTA HOTEL, EGEMEN & OKYANUS",
     },
   ];
 
@@ -52,9 +64,9 @@ const Portfolio = () => {
       </p>
       <div className="portfolio-slider-container">
         <Slider {...settings}>
-          {images.map((item, index) => (
+          {data.map((item, index) => (
             <div key={index} className="portfolio-slide">
-              <img src={item.src} alt={`portfolio-${index}`} className="portfolio-image" />
+              <img src={item.src} alt={`portfolio-${index}`} className="portfolio-image mb-2" />
               <p>{item.description}</p>
             </div>
           ))}
