@@ -13,6 +13,8 @@ const Portfolio = () => {
     swipeToSlide: true,
     arrows: false,
     dots: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 768,
