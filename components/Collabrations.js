@@ -25,20 +25,24 @@ const Collabrations = () => {
 
   const data = [
     {
-      src: "/src/assets/images/portfolio/carya-golf-club.jpg",
+      src: "/src/assets/images/collabrations/vermo.jpg",
       description: "Vermo Çelik",
     },
     {
-      src: "/src/assets/images/portfolio/art-hotel.jpg",
+      src: "/src/assets/images/collabrations/restorationhouse.jpg",
       description: "Restoration House",
     },
     {
-      src: "/src/assets/images/portfolio/libya-embassy.jpg",
+      src: "/src/assets/images/collabrations/etaconcept.jpg",
       description: "Eta Concept",
     },
     {
-      src: "/src/assets/images/portfolio/galata-hotel.jpg",
-      description: "Dekorist Ve Candan Arıcı Art Studio",
+      src: "/src/assets/images/collabrations/dekorist.jpg",
+      description: "Dekorist",
+    },
+    {
+      src: "/src/assets/images/collabrations/candanarici.jpg",
+      description: "Candan Arıcı Art Studio",
     },
   ];
 
@@ -46,8 +50,7 @@ const Collabrations = () => {
     <div className="collabrations-section py-10 md:py-30" id="collabrations">
       <h2 className="collabrations-title">OUR COLLABRATIONS</h2>
       <p className="collabrations-desc">
-        --
-      </p>
+       Fusce quis augue vitae odio elementum pretium. Nulla consequat felis sed arcu eleifend, ac feugiat ligula luctus. Vestibulum suscipit dapibus tempor. Quisque congue erat at diam sagittis, id mollis quam egestas. Sed porta dolor eu nisi auctor, nec sodales nulla ornare.     </p>
       <div className="collabrations-slider-container">
         <Slider {...settings}>
           {data.map((item, index) => (
