@@ -3,6 +3,7 @@
 @import "./vertical-slider.css";
 @import "./navbar.css";
 @import "./portfolio.css";
+@import "./collabrations.css";
 html{
   height: 100%;
 }

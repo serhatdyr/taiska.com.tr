@@ -31,6 +31,7 @@ const Navbar = () => {
                     <li className='m-4 flex items-center'><Link href="#home">HOME</Link></li>
                     <li className='m-4 flex items-center'><Link href="#about">ABOUT US</Link></li>
                     <li className='m-4 flex items-center'><Link href="#portfolio">PORTFOLIO</Link></li>
+                    <li className='m-4 flex items-center'><Link href="#collabrations">COLLABRATIONS</Link></li>
                     <li className='m-4 flex items-center'><Link href="#contact">CONTACT</Link></li>
                 </ul>
                 <div className='navbar-phone flex-none flex items-center'>

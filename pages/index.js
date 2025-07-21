@@ -5,6 +5,7 @@ import AboutUs from "@/components/AboutUs";
 import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
 import VerticalSlider from "@/components/VerticalSlider";
+import Collabrations from "@/components/Collabrations";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -24,6 +25,7 @@ export default function Home() {
       <VerticalSlider className={roboto.className} />
       <AboutUs />
       <Portfolio />
+      <Collabrations />
       <Contact />
     </>
   );

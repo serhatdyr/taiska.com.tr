@@ -26,31 +26,63 @@ const Portfolio = () => {
   const data = [
     {
       src: "/src/assets/images/portfolio/carya-golf-club.jpg",
-      description: "TURKEY ANTALYA - CARYA GOLF CLUB",
+      description: "İstinye Üniversitesi",
     },
     {
       src: "/src/assets/images/portfolio/art-hotel.jpg",
-      description: "BAKU, AZERBEYCAN - ART HOTEL",
+      description: "Cahide Plazzo",
     },
     {
       src: "/src/assets/images/portfolio/libya-embassy.jpg",
-      description: "ANKARA, TURKIYE - LIBYA EMBASSY",
+      description: "Ake",
     },
     {
       src: "/src/assets/images/portfolio/galata-hotel.jpg",
-      description: "ISTANBUL, TURKIYE - GALATA HOTEL",
+      description: "Koton",
     },
     {
       src: "/src/assets/images/portfolio/regnum-carya-resort-hotel-spa.jpg",
-      description: "BELEK, ANTALYA - REGNUM CARYA RESORT HOTEL & SPA",
+      description: "Defacto",
     },
     {
-      src: "/src/assets/images/portfolio/artas-construction.jpg",
-      description: "YENIMAHALLE, ANKARA - ARTAS CONSTRUCTION",
+      src: "/src/assets/images/portfolio/flo.jpg",
+      description: "Lcwaikiki",
+    },
+    {
+      src: "/src/assets/images/portfolio/flo.jpg",
+      description: "Flo",
     },
     {
       src: "/src/assets/images/portfolio/delta-hotel.jpg",
-      description: "ISTANBUL, - DELTA HOTEL, EGEMEN & OKYANUS",
+      description: "Evidea",
+    },
+    {
+      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      description: "Dogus Insaat",
+    },
+    {
+      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      description: "TCDD",
+    },
+    {
+      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      description: "American Fon University",
+    },
+    {
+      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      description: "Birey Eğitim Kurumları",
+    },
+    {
+      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      description: "İBB",
+    },
+    {
+      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      description: "Cetaş Madencilik",
+    },
+    {
+      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      description: "Yimtaş",
     },
   ];
 
