@@ -25,27 +25,27 @@ const Portfolio = () => {
 
   const data = [
     {
-      src: "/src/assets/images/portfolio/carya-golf-club.jpg",
+      src: "/src/assets/images/portfolio/isu.jpg",
       description: "İstinye Üniversitesi",
     },
     {
-      src: "/src/assets/images/portfolio/art-hotel.jpg",
+      src: "/src/assets/images/portfolio/cahide.jpg",
       description: "Cahide Plazzo",
     },
     {
-      src: "/src/assets/images/portfolio/libya-embassy.jpg",
+      src: "/src/assets/images/portfolio/ake.jpg",
       description: "Ake",
     },
     {
-      src: "/src/assets/images/portfolio/galata-hotel.jpg",
+      src: "/src/assets/images/portfolio/koton.jpg",
       description: "Koton",
     },
     {
-      src: "/src/assets/images/portfolio/regnum-carya-resort-hotel-spa.jpg",
+      src: "/src/assets/images/portfolio/defacto.jpg",
       description: "Defacto",
     },
     {
-      src: "/src/assets/images/portfolio/flo.jpg",
+      src: "/src/assets/images/portfolio/lcw.jpg",
       description: "Lcwaikiki",
     },
     {
@@ -53,35 +53,35 @@ const Portfolio = () => {
       description: "Flo",
     },
     {
-      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      src: "/src/assets/images/portfolio/evidea.jpg",
       description: "Evidea",
     },
     {
-      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      src: "/src/assets/images/portfolio/dogus.jpg",
       description: "Dogus Insaat",
     },
     {
-      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      src: "/src/assets/images/portfolio/tcdd.jpg",
       description: "TCDD",
     },
     {
-      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      src: "/src/assets/images/portfolio/afu.jpg",
       description: "American Fon University",
     },
     {
-      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      src: "/src/assets/images/portfolio/birey.jpg",
       description: "Birey Eğitim Kurumları",
     },
     {
-      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      src: "/src/assets/images/portfolio/ibb.jpg",
       description: "İBB",
     },
     {
-      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      src: "/src/assets/images/portfolio/cetas.jpg",
       description: "Cetaş Madencilik",
     },
     {
-      src: "/src/assets/images/portfolio/delta-hotel.jpg",
+      src: "/src/assets/images/portfolio/yimtas.jpg",
       description: "Yimtaş",
     },
   ];
