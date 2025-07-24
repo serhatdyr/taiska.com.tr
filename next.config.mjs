@@ -28,8 +28,14 @@ const nextConfig = {
     return config
   },
 
+
+
   reactStrictMode: true,
 };
+
+module.exports = {
+  output: 'standalone',
+}
 
 
 
